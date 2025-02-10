@@ -5,3 +5,33 @@ font-family: "Roboto", "serif"
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+ /*Universal Selector  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "serif";
+ }
+ 
+ #nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 10px;
+    background-color: #00303D;
+    color: #FFE4E1;
+    font-size: 15px;
+ }
+ #nav-bar div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+ }
+
+ #nav-bar span{
+    font-size: 14px;
+ }
+
+ #help-desk{
+    margin-right: 40px;
+ }
