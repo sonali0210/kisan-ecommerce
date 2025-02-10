@@ -1,2 +1,7 @@
-/* Google Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* CDN Link : Google Font Family */
+/* Font Family Name
+font-family: "Poppins", "serif" 
+font-family: "Roboto", "serif"
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
